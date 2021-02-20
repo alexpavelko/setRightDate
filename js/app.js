@@ -29,6 +29,7 @@ function createDate(UserDay,UserMonth,UserYear,UserHours,UserMinutes,UserSeconds
         const anyDate = new Date(UserYear,UserMonth,UserDay,UserHours,UserMinutes,UserSeconds); 
   
         console.log(anyDate.toLocaleString()); 
+        alert(anyDate.toLocaleString());
 }
 
 function GetLastDayOfMonth(year,month){
